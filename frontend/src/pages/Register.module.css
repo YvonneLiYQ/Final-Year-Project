@@ -1,0 +1,23 @@
+.registerWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 0  10px 5px #c8c3c3;
+}
+
+.registerText{
+    color: #ccc;
+    margin-left:16px;
+    cursor: pointer;
+}
+
+.registerText:hover {
+    color: #1677ff;
+}

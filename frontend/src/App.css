@@ -1,0 +1,144 @@
+.navbar {
+  background-color: #93b881;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fce2c4; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/heyhoo-lgnmd.ttf');
+}
+
+h1 {
+  font-family: 'MyCustomFont', sans-serif;
+  text-align: center;
+  font-size: 44px;
+  margin: 0px 0;
+  margin-top: -20px;
+  background-color: white;
+  .color-1 { color: #eb9b6f; };
+  .color-2 { color: #93b881; };
+  .color-3 { color: #ae7000; };
+}
+
+h2{
+  font-family: 'MyCustomFont', sans-serif;
+  text-align: center;
+  margin-top: -450px;
+  font-size: 74px;
+  color: #316745;
+}
+h3{
+  font-family: 'MyCustomFont', sans-serif;
+  text-align: center;
+  margin-top: -50px;
+  font-size: 34px;
+  color:black;
+}
+
+.image-section1 {
+  margin-top: 20px;
+  margin-left: -1000px;
+}
+
+.image-section1 img {
+  width: 300px;
+  height: 300px;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 83%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+}
+
+.image-section2 {
+  margin-top: 40px;
+  margin-left: 1100px;
+}
+
+.image-section2 img {
+  width: 300px;
+  height:300px;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 83%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+}
+button {
+  white-space: nowrap;
+  background-color: #316745; /* 按钮背景颜色 */
+  color: white; /* 文本颜色 */
+  padding: 15px 32px; /* 内边距：垂直和水平 */
+  border: none; /* 无边框 */
+  border-radius: 5px; /* 边角圆滑度 */
+  cursor: pointer; /* 鼠标悬停时的光标样式 */
+  font-size: 16px; /* 字体大小 */
+  transition: background-color 0.3s, transform 0.3s; /* 过渡效果 */
+}
+
+button:hover {
+  background-color: #93b881; /* 鼠标悬停时的背景颜色 */
+  transform: scale(1.05); /* 鼠标悬停时稍微放大按钮 */
+}
+
+button:active {
+  transform: scale(0.95); /* 鼠标点击时稍微缩小按钮 */
+}
+
+
+.image-section {
+  width: 300%; /* 调整为合适的宽度 */
+  
+}
+
+.image-section img {
+  width: 200%;
+  height: auto;
+}
+.transfer-page {
+  text-align: center;
+}
+
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images-container p{
+  color:black;
+  
+}
+.image-block {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.image-block img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+{
+  "user": [
+    {
+      "id": "3040",
+      "username": "admin",
+      "password": "123456"
+    }
+  ],
+  "commentData": [
+    {
+      "id": "3db5",
+      "imglist": [
+        "http://example.png",
+        "http://example.jpg"
+      ],
+      "comment": [
+        {
+          "userid": "3040",
+          "username": "admin",
+          "comment": "",
+          "createtime": "2024-04-24 12:17:10"
+        }
+      ]
+    },
+    {
+      "id": "bbb3",
+      "imglist": [
+        "http://example.png",
+        "http://example.jpg"
+      ],
+      "comment": [
+        {
+          "userid": "3040",
+          "username": "admin",
+          "comment": "",
+          "createtime": "2024-04-24 12:17:17"
+        }
+      ]
+    }
+  ]
+}
